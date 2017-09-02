@@ -1,9 +1,9 @@
-# subliminal_inotify
+# Automatic subtitle download with subliminal and inotify
 
-Simple python application that uses inotify to wait for new video files and
+Simple python script that uses inotify to wait for new video files and
 download subtitles automatically.
 
-## INSTALLATION
+### Installation
 
 ```
 $ virtualenv venv
@@ -11,7 +11,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-## USE
+### Use
 
 ```
 $ python subliminal_inotify.py --path=<PATH_TO_VIDEOS>
